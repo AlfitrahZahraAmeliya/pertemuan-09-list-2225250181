@@ -1,3 +1,8 @@
+# Input: Data nilai mahasiswa dalam bentuk list.
+# Proses: Menggunakan fungsi rata_rata() untuk menghitung
+# rata-rata dan memeriksa apakah list kosong.
+# Output: Menampilkan rata-rata nilai mahasiswa.
+
 def rata_rata(data):
     if len(data) == 0:
         return 0
